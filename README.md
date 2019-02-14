@@ -1,6 +1,6 @@
 Getting Started
 
-  1. Download Anaconda Python distribution from https://www.anaconda.com/distribution/
+  1. Download Anaconda Python distribution version 3.7 from https://www.anaconda.com/distribution/
 
   2. Install Anaconda and Visual Studio Code (VSCode)
 
