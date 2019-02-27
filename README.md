@@ -8,7 +8,7 @@
 
   3. Clone this Git Repo in VSCode
 
-     - View -> Command Palette
+     - From the "View" menu select the "Command Palette" option
 
      - Type Git Clone (and select)
 
