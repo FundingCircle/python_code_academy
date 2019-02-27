@@ -1,4 +1,4 @@
-Getting Started
+# Getting Started
 
   1. Download Anaconda Python distribution version 3.7 from https://www.anaconda.com/distribution/
 
@@ -20,8 +20,9 @@ Getting Started
 
   6. Navigate to Koans directory and run tests
 
-  7. The exercise
+# The exercise
 
+The exercise is comprised of 8 parts. Each part should be completed in order
 
   1. Assertions
   2. Strings
