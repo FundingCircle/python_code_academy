@@ -13,33 +13,19 @@ class AboutLists(Koan):
         self.assertEqual(list, type(empty_list))
         self.assertEqual(__, len(empty_list))
 
-    def test_list_literals(self):
-        nums = list()
-        self.assertEqual([], nums)
-
-        nums[0:] = [1]
-        self.assertEqual([1], nums)
-
-        nums[1:] = [2]
-        self.assertListEqual([1, __], nums)
-
-        nums.append(333)
-        self.assertListEqual([1, 2, __], nums)
-
     def test_accessing_list_elements(self):
         noms = ['peanut', 'butter', 'and', 'jelly']
+        self.assertEqual('peanut', noms[0])
 
-        self.assertEqual(__, noms[0])
         self.assertEqual(__, noms[3])
         self.assertEqual(__, noms[-1])
         self.assertEqual(__, noms[-3])
 
     def test_slicing_lists(self):
         noms = ['peanut', 'butter', 'and', 'jelly']
+        self.assertEqual(['peanut', 'butter'], noms[0:2])
 
-        self.assertEqual(__, noms[0:1])
-        self.assertEqual(__, noms[0:2])
-        self.assertEqual(__, noms[2:2])
+        self.assertEqual(__, noms[2:3])
         self.assertEqual(__, noms[2:20])
         self.assertEqual(__, noms[4:0])
         self.assertEqual(__, noms[4:100])
@@ -52,17 +38,10 @@ class AboutLists(Koan):
         self.assertEqual(__, noms[:2])
 
     def test_lists_and_ranges(self):
-        self.assertEqual(range, type(range(5)))
-        self.assertNotEqual([1, 2, 3, 4, 5], range(1,6))
+        self.assertEqual([0, 1, 2], list(range(3)))
+
         self.assertEqual(__, list(range(5)))
         self.assertEqual(__, list(range(5, 9)))
-
-    def test_ranges_with_steps(self):
-        self.assertEqual(__, list(range(5, 3, -1)))
-        self.assertEqual(__, list(range(0, 8, 2)))
-        self.assertEqual(__, list(range(1, 8, 3)))
-        self.assertEqual(__, list(range(5, -7, -4)))
-        self.assertEqual(__, list(range(5, -8, -4)))
 
     def test_insertions(self):
         knight = ['you', 'shall', 'pass']
@@ -106,4 +85,3 @@ class AboutLists(Koan):
 
         # Note, popping from the left hand side of a list is
         # inefficient. Use collections.deque instead.
-
