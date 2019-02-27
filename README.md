@@ -22,13 +22,12 @@ Getting Started
 
   7. The exercise
 
-  The exercise is composed of 8 parts:
 
-  01 - Assertions
-  02 - Strings
-  03 - Lists
-  04 - Dictionaries
-  05 - Sets
-  06 - Control Structures
-  07 - Classes
-  08 - Dice Project
+  1. Assertions
+  2. Strings
+  3. Lists
+  4. Dictionaries
+  5. Sets
+  6. Control Structures
+  7. Classes
+  8. Dice Project
