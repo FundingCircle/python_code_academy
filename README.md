@@ -18,7 +18,7 @@
 
   5. Install Python Test Explorer extension in VSCode
 
-  6. Navigate to Koans directory and run tests
+  6. Navigate to `python3/koans` directory and run tests
 
 # The exercise
 
