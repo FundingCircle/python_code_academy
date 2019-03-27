@@ -29,7 +29,7 @@
 
      - Type Git Clone (and select)
 
-     - Enter the url https://github.com/stuart-robinson/python_bridge.git
+     - Enter the url https://github.com/FundingCircle/python_code_academy.git
 
   3. Open the Workspace python-bridge.code-workspace (a popup should ask you if you want to do this)
 
